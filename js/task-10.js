@@ -23,7 +23,7 @@ function createBoxes(amount) {
 
 inputEl.addEventListener("input", (e) => {
   amountOfEements = Number(e.currentTarget.value);
-  console.log(amountOfEements);
+  // console.log(amountOfEements);
 });
 
 btnCreateEl.addEventListener("click", () => {
