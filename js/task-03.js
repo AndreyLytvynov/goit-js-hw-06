@@ -21,7 +21,7 @@ const galeryMurkup = images
   </li>
   `;
   })
-  .join();
+  .join("");
 
 const galeryEl = document.querySelector(".gallery");
 galeryEl.insertAdjacentHTML("afterbegin", `${galeryMurkup}`);
